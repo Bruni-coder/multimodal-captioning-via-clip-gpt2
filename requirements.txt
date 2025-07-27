@@ -1,0 +1,16 @@
+torch>=2.0.0
+transformers>=4.30.0
+sentencepiece       # 如果使用 GPT-2 或 BPE tokenizer
+openai-clip         # 用于 CLIP 模型（如果你用的是 openai/clip）
+tqdm
+numpy
+pandas
+matplotlib
+scikit-learn
+Pillow
+safetensors         # 如果使用 .safetensors 模型格式
+notebook            # Jupyter Notebook 运行支持
+flask               # 如果你用 app.py 搭建了 Web Demo
+openai-clip
+ftfy
+regex
