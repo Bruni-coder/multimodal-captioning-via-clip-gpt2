@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Caption Generator</title>
+</head>
+<body>
+    <h1>多模态文本生成模型</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label>上传图片:</label><br>
+        <input type="file" name="image" accept="image/*" required><br><br>
+
+        <label>输入提示词:</label><br>
+        <input type="text" name="prompt" placeholder="e.g., A dog playing" required><br><br>
+
+        <input type="submit" value="生成描述">
+    </form>
+
+    {% if result %}
+        <h2>✨ 生成结果：</h2>
+        <p>{{ result }}</p>
+    {% endif %}
+</body>
+</html>
