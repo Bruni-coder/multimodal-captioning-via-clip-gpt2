@@ -38,7 +38,7 @@ Input Image → CLIP Encoder → Linear Projection → [Image Embedding + Prompt
 - Hardware: NVIDIA A10 GPU (24GB), 16-core CPU, 60GB RAM
 - OS: Ubuntu 20.04
 
-## Repository Structure
+
 ## Repository Structure
 
 ```text
