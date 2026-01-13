@@ -1,4 +1,4 @@
-# multimodal-captioning-via-clip-gpt2
+# Multimodal Captioning via CLIP-GPT2
 
 This repository implements a lightweight multimodal image captioning system that integrates CLIP as a visual encoder and GPT-2 as a language decoder. By connecting these models via a linear projection module, we enable prompt-conditioned caption generation without fine-tuning either backbone.
 
